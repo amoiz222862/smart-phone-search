@@ -1,0 +1,104 @@
+body {
+    background: url(images/images.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+figure {
+    display: inline-block;
+}
+
+img {
+    width: 300px;
+}
+
+figcaption {
+    text-align: center;
+    background-color: aqua;
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: black;
+    font-family: fantasy;
+    font-size: large;
+    font-weight: bold;
+}
+
+.mainDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.inputDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.inputDiv>input {
+    width: 500px;
+    margin: 20px 20px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 4px solid black;
+    color: black;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input:focus {
+    outline: none;
+    border: 4px solid black;
+}
+
+.buttonsDiv {
+    display: flex;
+    justify-content: center
+}
+
+.buttonsDiv>button {
+    border: 5px solid aquamarine;
+    border-radius: 5px;
+    padding: 5px 5px;
+    width: 100px;
+    background-color: black;
+    color: white;
+}
+
+.buttonsDiv>button:focus {
+    border: none;
+}
+
+h1 {
+    font-size: 15px;
+    font-weight: bolder;
+    color: black;
+    font-family: monospace;
+}
+
+.mainDivSearch {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.discription {
+    margin-top: 20px;
+}
+
+table {
+    border: 2px solid black;
+    margin: 0 auto;
+}
+
+tr {
+    border: 2px solid black;
+}
+
+td {
+    border: 2px solid black;
+}
